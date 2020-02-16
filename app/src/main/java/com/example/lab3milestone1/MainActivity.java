@@ -31,6 +31,8 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void openDialog(){
+        ExampleDialog exampleDialog = new ExampleDialog();
+        exampleDialog.show(getSupportFragmentManager(), "example diaglog");
 
     }
 }
